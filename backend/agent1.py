@@ -2,7 +2,7 @@ from typing import Any, Dict
 from langgraph.graph import StateGraph, END
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("dummy-agent-1")
+mcp = FastMCP("agent")
 
 
 class AgentOne:
